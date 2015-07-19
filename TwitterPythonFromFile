@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# python Test1.py helloworld.txt
 
 import tweepy, time, sys
 
