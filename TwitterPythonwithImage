@@ -1,0 +1,17 @@
+import twython
+
+CONSUMER_KEY = '???'
+CONSUMER_SECRET = '???'
+ACCESS_KEY = '???'
+ACCESS_SECRET = '???'
+
+twitter = twython.Twython(
+CONSUMER_KEY,
+CONSUMER_SECRET,
+ACCESS_KEY,
+ACCESS_SECRET
+)
+f = open("1.jpg", 'rb')
+twitter.update_status_with_media(
+status = "Testing tweet... with imagery!",
+media = f
